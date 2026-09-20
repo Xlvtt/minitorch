@@ -54,7 +54,7 @@ if module_selection == "Module 0":
 
     def render_run_torch_interface():
         st.header("Demo - Torch")
-        render_train_interface(TorchTrain, False)
+        render_train_interface(TorchTrain, False, True)
 
     PAGES["Torch Example"] = render_run_torch_interface
     PAGES["Module 0: Manual"] = render_run_manual_interface
