@@ -42,3 +42,4 @@ repos:
   rev: v1.1.376
   hooks:
     - id: pyright
+      exclude: ^(tests/|project/|minitorch/(cuda_|fast_))

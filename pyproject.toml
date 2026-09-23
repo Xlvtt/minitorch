@@ -72,6 +72,8 @@ exclude = [
     "**/mt_diagrams/*",
     "**/minitorch/testing.py",
     "**/docs/**/*",
+    "**/minitorch/cuda_*.py",
+    "**/minitorch/fast_*.py",
 ]
 
 ignore = [
@@ -94,6 +96,9 @@ ignore = [
     "D100",
     "D101",
     "D107",
+    "D102",
+    "D103",
+    "D417",
     "D213",
     "ANN204",
     "ANN102",
